@@ -1,11 +1,12 @@
 :root {
-    --text-color: #FF6347;
-    --card-front-color: #FFD700;
-    --card-back-color: #00F4BF;
+
+    --text-color: #ffc518;
+    --card-front-color: #ffff75;
+    --card-back-color: #efb810;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: url(https://images.app.goo.gl/KzjJvSe9tpZ8sP2s9);
     font-family: Bai Jamjuree;
 }
 
@@ -27,7 +28,7 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: Aquamarine; */
+    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -99,7 +100,7 @@ footer p {
 @media (max-width: 560px) {
     
     body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
+        background: url('img/A-flor-roxa-e-com-certeza-uma-das-mais-belas-da-natureza.-Fonte-Unsplash..jpg'), no-repeat cover;
     }
 
     .cartao {
